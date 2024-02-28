@@ -78,7 +78,18 @@ public class DecisionControlStructures {
         // Example:
 
         // print "Excellent" if grade is greater than 90, "Very Good" if it is greater than 60, otherwise "sorry,you failed".
-    }
+
+        if (grade > 90) {
+            System.out.println("Excellent");
+
+        } else if (grade > 60) {
+            System.out.println("Very Good");
+
+        } else {
+            System.out.println("Sorry You failed");
+        }
+
+}
 }
 
 
